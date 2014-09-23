@@ -1,0 +1,39 @@
+
+@import 'css/common.css';
+
+paper-button {
+    font-family:hellogoodbye;
+    font-size:24pt;
+    color:#8A908E;
+    white-space: nowrap;
+}
+
+paper-button, paper-button[disabled], paper-button.hover:hover {
+
+    background-image: url('images/menu_underline.png') !important;
+    -webkit-background-size: 85% 10px !important;
+    -o-background-size: 85% 10px !important;
+    -moz-background-size: 85% 10px !important;
+    background-size: 85% 10px !important;
+    background-repeat: no-repeat !important;
+    background-position:center bottom !important;
+    background-color: transparent !important;
+}
+
+paper-button[disabled] {
+    color:#B9C1BE !important;
+}
+
+paper-button.hover:hover {
+    color:#F29AA4; !important;
+}
+
+
+#view_title {
+    padding:0 16px;
+}
+
+#menu {
+    margin:0;
+    padding:0 0 30px 0;
+}

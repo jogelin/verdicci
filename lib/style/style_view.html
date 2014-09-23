@@ -1,0 +1,31 @@
+<div id="styles" vertical layout style-ctrl>
+    <div ng-repeat="style in styleCtrl.allStyles | filter:{category : styleCtrl.currentCategory}">
+        <div vertical layout>
+            <div horizontal layout>
+                <h3>{{style.name}}.</h3>&nbsp;&nbsp;<h4 class="pink">{{style.label}}</h4>
+            </div>
+            <div ng-if="$even" id="style" horizontal justified layout>
+                <div ng-repeat="img in style.images" flex four horizontal layout>
+                    <img class="style-image" ng-src="data/styles/{{style.id}}/{{img}}">
+                </div>
+                <div vertical layout flex four>
+                    <div class="style-description">{{style.description}}</div>
+                    <div horizontal layout end-justified end>
+                        <div><img  class="style-brand" ng-src="data/styles/{{style.id}}/{{style.brandIcon}}" /></div>
+                    </div>
+                </div>
+            </div>
+            <div ng-if="$odd" id="style" horizontal justified layout>
+                <div vertical layout flex four>
+                    <div class="style-description">{{style.description}}</div>
+                    <div horizontal layout end-justified end>
+                        <div><img  class="style-brand" ng-src="data/styles/{{style.id}}/{{style.brandIcon}}" /></div>
+                    </div>
+                </div>
+                <div ng-repeat="img in style.images" flex four horizontal  end-justified layout>
+                    <img class="style-image" ng-src="data/styles/{{style.id}}/{{img}}">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

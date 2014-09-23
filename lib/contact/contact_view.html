@@ -1,0 +1,23 @@
+
+<div id="contact" contact-ctrl horizontal justified layout>
+    <div>
+        <p>
+            <h3 class="pink">ADDRESSE:</h3> Rue Colonel Bourg,1 5170 Profondeville<br />
+            <h3 class="pink">TELEPHONE:</h3> 081/67.89.45.76<br />
+
+            <form>
+                <div horizontal justified layout>
+                    <h3 class="pink">EMAIL:</h3>&nbsp;<paper-input  label="iuouio" type="email" error="Invalid email!" flex></paper-input>
+                </div>
+                <paper-input multiline rows="5"  label="Type your message" error="Please type a message" flex></paper-input>
+            </form>
+        </p>
+    </div>
+    <div horizontal layout>
+
+
+        <x-google-map bind-info="true" flex>
+        </x-google-map>
+    </div>
+
+</div>

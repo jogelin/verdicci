@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>VERDICCI - Home & Style</title>
+
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>
+
+    <link rel="import" href="packages/core_elements/core_toolbar.html">
+    <link rel="import" href="packages/core_elements/core_header_panel.html">
+    <link rel="import" href="packages/paper_elements/paper_button.html">
+    <link rel="import" href="packages/paper_elements/paper_icon_button.html">
+    <link rel="import" href="packages/paper_elements/paper_input.html">
+
+    <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBylg1MxvJRAyqSvvJsbzCck4XEkwhTZTg">
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- use fullbleed attribute to specify the body should fill the viewport -->
+<body fullbleed>
+    <core-header-panel id="core-header-panel">
+        <core-toolbar id="core-toolbar" class="medium-tall">
+            <div flex horizontal layout>
+                <div flex two></div>
+                <div flex eight vertical layout>
+                    <div class="core-toolbar-title">VERDICCI</div>
+                    <div class="core-toolbar-subtitle">HOME & STYLE</div>
+                </div>
+                <div flex two></div>
+
+            </div>
+        </core-toolbar>
+
+        <section id="section" horizontal layout>
+            <div flex two></div>
+            <div id="content" flex eight vertical layout>
+                <menu></menu>
+                <ng-view></ng-view>
+            </div>
+            <div flex two></div>
+        </section>
+
+    </core-header-panel>
+
+    <script type="application/dart" src="main.dart"></script>
+    <script type="text/javascript" src="packages/browser/dart.js"></script>
+</body>
+</html>

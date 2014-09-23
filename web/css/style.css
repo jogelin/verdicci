@@ -1,0 +1,124 @@
+
+
+@import 'common.css';
+
+/*STYLES*/
+body {
+    padding:0px;
+    margin:0px;
+    font-family:"kgsweetnsassy";
+    color:#636363;
+    font-size:14pt;
+
+    background-image: url('../images/background.png');
+    background-color: #F6F1EB;
+    background-repeat: repeat;
+    overflow:hidden;
+}
+
+/*TEMPLATE*/
+:host {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#core-header-panel {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0;
+    position: absolute;
+    margin-top:40px;
+}
+#core-toolbar {
+    background-color: #B9C1BE;
+    background-image: url('../images/banner_roses.png');
+
+    font-family:hellogoodbye;
+    color: #8A908E;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+#core-toolbar .core-toolbar-title {
+    font-size:50pt;
+    font-weight:500;
+    padding:70px 0 0 0;
+}
+
+#core-toolbar .core-toolbar-subtitle {
+    font-size:24pt;
+    padding:0 0 0 20px;
+}
+
+
+html /deep/ core-icon {
+    height: 48px;
+    width: 48px;
+}
+
+#section {
+    margin-top:35px;
+    border-radius:3px;
+
+}
+
+#content {
+    background-color:#F6F1EB;
+    padding:0 25px 40px 25px;
+}
+
+ng-view {
+    padding:0 16px;
+}
+
+/*MENU*/
+menu {
+    -webkit-padding-start:0;
+    margin-bottom:0;
+}
+
+/*WELCOME*/
+.cadre {
+    background-image: url('../images/cadre.png');
+    -webkit-background-size: 85% 85%;
+    -o-background-size: 85% 85%;
+    -moz-background-size: 85% 85%;
+    background-size: 85% 85%;
+    background-repeat: no-repeat;
+    margin-left:20px;
+    background-position:26px 8px;
+    padding-bottom:40px;
+}
+
+.cadre_title {
+    text-align: center;
+}
+
+.cadre_content {
+    text-align: center;
+    padding-top:10px;
+}
+
+/*STYLE*/
+#style {
+    margin-bottom:20px;
+}
+
+.style-description {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.style-image {
+    height:256px;
+    border:3px solid #fff;
+    border-radius:2px;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+.style-brand {
+    margin-top:20px;
+}
+
