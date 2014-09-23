@@ -2,16 +2,13 @@ name: verdicci
 version: 0.0.1
 dependencies:
   browser: any
-  angular: "0.14.0"
   polymer: "0.14.3"
   core_elements: "0.2.2+1"
   paper_elements:  "0.3.0+1"
+  angular: "0.14.0"
 dependency_overrides:
   args: "0.11.0"
   code_transformers: "0.2.3"
   html5lib: "0.12.0"
 transformers:
 - angular
-  entry_points
-      - packages/verdicci/welcome/welcome_view.html
-      - web/index2.html
