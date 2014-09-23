@@ -2,6 +2,7 @@ library app_router;
 
 import 'package:angular/angular.dart';
 
+@Injectable()
 class AppRouteInitializer implements RouteInitializer  {
 
   Scope _scope;
@@ -10,7 +11,8 @@ class AppRouteInitializer implements RouteInitializer  {
 
   void init(Router router, RouteViewFactory views) {
 
-    var urlPrefix = "../lib";
+    //var urlPrefix = "../lib";
+    var urlPrefix = "packages/verdicci";
 
     views.configure({
       'welcome': ngRoute(

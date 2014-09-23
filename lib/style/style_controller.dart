@@ -33,4 +33,10 @@ class StyleController {
 
   String get currentCategory => _currentCategory;
   set currentCategory(String value) => _currentCategory = value;
+
+  RouteProvider get routerProvider => _routerProvider;
+  QueryService get queryService => _queryService;
+  Http get http => _http;
+
+
 }
