@@ -16,4 +16,4 @@ pubspec.lock
 #IntelliJ
 .idea
 .pub
-.iml
+*.iml
