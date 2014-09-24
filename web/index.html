@@ -21,8 +21,8 @@
 </head>
 <!-- use fullbleed attribute to specify the body should fill the viewport -->
 <body fullbleed>
-    <core-header-panel id="core-header-panel">
-        <core-toolbar id="core-toolbar" class="medium-tall">
+    <core-header-panel>
+        <core-toolbar class="medium-tall">
             <div flex horizontal layout>
                 <div flex two></div>
                 <div flex eight vertical layout>
@@ -34,10 +34,10 @@
             </div>
         </core-toolbar>
 
-        <section id="section" horizontal layout>
+        <section horizontal layout>
             <div flex two></div>
-            <div id="content" flex eight vertical layout>
-                <menu></menu>
+            <div id="page" flex eight vertical layout>
+                <verdicci-menu></verdicci-menu>
                 <ng-view></ng-view>
             </div>
             <div flex two></div>

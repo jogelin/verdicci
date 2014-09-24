@@ -12,25 +12,25 @@ class AppRouteInitializer implements RouteInitializer  {
   void init(Router router, RouteViewFactory views) {
 
     //var urlPrefix = "../lib";
-    var urlPrefix = "packages/verdicci";
+    var urlPrefix = "view";
 
     views.configure({
       'welcome': ngRoute(
           defaultRoute: true,
           path: '/welcome',
-          view: urlPrefix + '/welcome/welcome_view.html',
+          view: urlPrefix + '/welcome_view.html',
           enter: enterViewEvent),
       'styles': ngRoute(
           path: '/styles/:category',
-          view: urlPrefix + '/style/style_view.html',
+          view: urlPrefix + '/style_view.html',
           enter: enterViewEvent),
       'openhours': ngRoute(
           path: '/openhours',
-          view: urlPrefix + '/openhours/openhours_view.html',
+          view: urlPrefix + '/openhours_view.html',
           enter: enterViewEvent),
       'contact': ngRoute(
           path: '/contact',
-          view: urlPrefix + '/contact/contact_view.html',
+          view: urlPrefix + '/contact_view.html',
           enter: enterViewEvent)
 
     });

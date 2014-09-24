@@ -4,7 +4,7 @@ import 'package:angular/angular.dart';
 
 
 @Component(
-    selector: 'menu',
+    selector: 'verdicci-menu',
     templateUrl: 'packages/verdicci/menu/menu_component.html',
     cssUrl: 'packages/verdicci/menu/menu_component.css',
     publishAs: 'cmp')
@@ -15,7 +15,7 @@ class MenuComponent {
 
   List<Menu> _menus;
   List<Menu> get menus => _menus;
-  Menu get currentMenu => _menus.where((menu) => menu.active).first;
+  Menu get currentMenu => _menus.singleWhere((menu) => menu.active);
 
   MenuComponent(this._router, this._scope) {
     _menus = [

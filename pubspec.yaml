@@ -8,7 +8,9 @@ dependencies:
   angular: "0.14.0"
 dependency_overrides:
   args: "0.11.0"
-  code_transformers: "0.2.3"
+  code_transformers: "0.2.3+1"
   html5lib: "0.12.0"
 transformers:
-- angular
+- angular:
+    html_files:
+      - view/welcome_view.html

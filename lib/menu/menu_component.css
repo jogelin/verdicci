@@ -6,6 +6,7 @@ paper-button {
     font-size:24pt;
     color:#8A908E;
     white-space: nowrap;
+    padding:0;
 }
 
 paper-button, paper-button[disabled], paper-button.hover:hover {
@@ -28,12 +29,16 @@ paper-button.hover:hover {
     color:#F29AA4; !important;
 }
 
+paper-icon-button {
+    background-size: 100%;
+    background-position: 50% 50%;
+}
 
-#view_title {
+#view-title {
     padding:0 16px;
 }
 
-#menu {
+#view-menu {
     margin:0;
     padding:0 0 30px 0;
 }
