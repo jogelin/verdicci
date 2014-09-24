@@ -37,6 +37,16 @@ h1, h2, h3, h4 {
     -webkit-margin-after: 0.5em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+
+    -moz-margin-before: 0.8em;
+    -moz-margin-after: 0.5em;
+    -moz-margin-start: 0px;
+    -moz-margin-end: 0px;
+
+    -o-margin-before: 0.8em;
+    -o-margin-after: 0.5em;
+    -o-margin-start: 0px;
+    -o-margin-end: 0px;
 }
 
 h1 {

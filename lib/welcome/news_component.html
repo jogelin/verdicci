@@ -1,10 +1,10 @@
 <div vertical layout>
     <div><h1>NEWS</h1></div>
-    <div id="news" ng-repeat="nn in cmp.news" horizontal layout>
-        <div id="image" ng-style="{'background-image': 'url(data/news/{{nn.id}}/{{nn.image}})'}">
+    <div id="news-line" ng-repeat="nn in cmp.news" horizontal layout>
+        <div id="news-image" ng-style="{'background-image': 'url(data/news/{{nn.id}}/{{nn.image}})'}">
             <img ng-src="images/polaroid_background.png"/>
         </div>
-        <div id="description" flex>
+        <div id="news-description" flex>
             <h2 class="pink">{{nn.name}}</h2> {{nn.description}}
         </div>
     </div>

@@ -81,7 +81,7 @@ ng-view {
 /*MENU*/
 verdicci-menu {
     -webkit-padding-start:0;
-    -ozm-padding-start:0;
+    -moz-padding-start:0;
     -o-padding-start:0;
     margin-bottom:0;
 }
@@ -91,7 +91,7 @@ verdicci-menu {
     background-image: url('../images/cadre.png');
     -webkit-background-size: 85% 85%;
     -o-background-size: 85% 85%;
-    -ozm-background-size: 85% 85%;
+    -moz-background-size: 85% 85%;
     background-size: 85% 85%;
     background-repeat: no-repeat;
     margin-left:20px;
@@ -107,4 +107,80 @@ verdicci-menu {
     text-align: center;
     padding-top:10px;
 }
+
+
+#news-line {
+    margin:15px 0px;
+}
+
+#news-image {
+
+    background-color: #F6F1EB;
+    -webkit-background-size: 96px 96px;
+    -o-background-size: 96px 96px;
+    -moz-background-size: 96px 96px;
+    background-size: 96px 96px;
+    background-repeat: no-repeat;
+    background-position:7px 8px;
+
+
+
+   /*padding:8px 7px 21px 7px;*/
+}
+
+#news-description {
+    padding: 5px 10px;
+}
+
+img {
+    -webkit-box-shadow: inset 0 0 5px 6px #000;
+    -o-box-shadow: inset 0 0 5px 6px #000;
+    -moz-box-shadow: inset 0 0 5px 6px #000;
+    box-shadow: inset 0 0 5px 6px #000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#news-line {
+    margin:15px 0px;
+}
+
+#news-image {
+
+    background-color: #F6F1EB;
+    -webkit-background-size: 96px 96px;
+    -o-background-size: 96px 96px;
+    -moz-background-size: 96px 96px;
+    background-size: 96px 96px;
+    background-repeat: no-repeat;
+    background-position:7px 8px;
+
+
+
+   /*padding:8px 7px 21px 7px;*/
+}
+
+#news-description {
+    padding: 5px 10px;
+}
+
+#news-line img {
+    -webkit-box-shadow: inset 0 0 5px 6px #000;
+    -o-box-shadow: inset 0 0 5px 6px #000;
+    -moz-box-shadow: inset 0 0 5px 6px #000;
+    box-shadow: inset 0 0 5px 6px #000;
+
+}
+
 

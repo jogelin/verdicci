@@ -5,7 +5,7 @@ import 'package:verdicci/service/query_service.dart';
 import 'package:verdicci/service/model.dart';
 
 @Component(
-    selector: 'news',
+    selector: 'verdicci-news',
     templateUrl: 'packages/verdicci/welcome/news_component.html',
     cssUrl: 'packages/verdicci/welcome/news_component.css',
     publishAs: 'cmp')

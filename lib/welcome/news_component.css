@@ -1,11 +1,11 @@
 
 @import 'css/common.css';
 
-#news {
+#news-line {
     margin:15px 0px;
 }
 
-#image {
+#news-image {
 
     background-color: #F6F1EB;
     -webkit-background-size: 96px 96px;
@@ -20,7 +20,7 @@
    /*padding:8px 7px 21px 7px;*/
 }
 
-#description {
+#news-description {
     padding: 5px 10px;
 }
 
