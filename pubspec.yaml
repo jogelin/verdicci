@@ -2,16 +2,17 @@ name: verdicci
 version: 0.0.1
 dependencies:
   browser: any
-  polymer: "0.14.3"
-  core_elements: "0.2.2+1"
-  paper_elements:  "0.3.0+1"
-  angular: "0.14.0"
+  polymer: ">=0.15.1 <0.16.0"
+  core_elements: ">=0.3.2 <0.4.0"
+  paper_elements: ">=0.4.2 <0.5.0"
+  polymer: ">=0.15.1 <0.16.0"
+  angular: ">=1.0.0 <2.0.0"
+  web_components: ">=0.9.0 <0.10.0"
 dependency_overrides:
-  args: "0.11.0"
-  code_transformers: "0.2.3+1"
-  html5lib: "0.12.0"
-  web_components: ">=0.7.0+1 <0.8.0"
+  args: ">=0.12.0+2 <0.13.0"
+  code_transformers: ">=0.2.3+1 <0.3.0"
+  html5lib: ">=0.12.0 <0.13.0"
+  observe: ">=0.12.1+1 <0.13.0"
 transformers:
-- angular:
-    html_files:
-      - view/welcome_view.html
+- angular
+- polymer
